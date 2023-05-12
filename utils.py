@@ -5,13 +5,14 @@ import aiohttp
 import asyncio
 import discord
 import datetime
+import os
 
 
 with open("json/config.json") as f:
     config = json.load(f)
-token = config.get("token")
+token = os.getenv("token")
 prefix = config.get("prefix")
-loghook = config.get("loghook")
+loghook = os.getenv("loghook")
 command_cooldown_time = config.get("command_cooldown_time")
 
 developer_list = config.get("developer_list")
