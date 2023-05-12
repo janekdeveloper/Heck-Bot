@@ -1,7 +1,7 @@
 {
-	"token": "MTEwNjMyMjk2NjQ5MDM4NjU0Mg.GsyueC.-6Posd07bVM8hZEdRjeb-Ca_UT_jhAKvo0y0EA",
+	"token": "",
 	"prefix": ".",
-	"loghook": "https://discord.com/api/webhooks/1106338723215446119/lZSwKBYcPsHPGSssO88GcxnfcTIvbSzWccDzdDNJkS_xoyly-7kgWHMPIn-VJVhsVQ_l",
+	"loghook": "",
 	"command_cooldown_time": 60,
 
 	"developer_list": [695690814491328642],
