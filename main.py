@@ -1,4 +1,11 @@
 # coding: utf-8
+#
+#
+#!!!ВНИМАНИЕ!!!
+#Я не разработчик бота, я пофиксил некоторые баги и всё, разраб бота - ! ARMAGEDDON#7393
+#
+#
+
 import os
 import json
 import aiohttp
