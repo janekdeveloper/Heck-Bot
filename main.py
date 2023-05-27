@@ -51,7 +51,7 @@ async def loadcog(ctx, extension):
 @client.command()
 async def unload(ctx, extension):
     if ctx.author.id == 695690814491328642:
-        await client.unload_extension(f"cogs {extension}")
+        await client.unload_extension(f"cogs.{extension[:-3]}")
         await ctx.send("Cogs unloaded!")
     else:
         await ctx.send("You are not a bot developer.")
@@ -60,8 +60,8 @@ async def unload(ctx, extension):
 @client.command()
 async def reload(ctx, extension):
     if ctx.author.id == 695690814491328642:
-        await client.unload_extension(f"cogs {extension}")
-        await client.load_extension(f"cogs {extension}")
+        await client.unload_extension(f"cogs.{extension[:-3]}")
+        await client.load_extension(f"cogs.{extension[:-3]}")
         await ctx.send("Cogs reloaded!")
     else:
         await ctx.send("You are not a bot developer.")
